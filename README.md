@@ -1,11 +1,13 @@
-## My Project
+## Amazon SageMaker DeepAR Workshop Spanish
 
-TODO: Fill this README out!
+This workshop uses [Amazon SageMaker](https://docs.aws.amazon.com/sagemaker/index.html) to train a prediction model using DeepAR algorithm.
+In this workshop we use the [Deutsche Börse Public Dataset](https://registry.opendata.aws/deutsche-boerse-pds/) to train a model to predict securities transaction volume.
 
-Be sure to:
+The workshop can be found in the file ```sagemaker-deepar.ipynb```, all the instructions are in spanish.
 
-* Change the title in this README
-* Edit your repository description on GitHub
+The file ```util.py``` contains utilitarian methods to help the user recover the data set files.
+
+This Workshop was tested using the SageMaker kernel ```DataScience``` in an ```ml.c5.large``` instance.
 
 ## Security
 
